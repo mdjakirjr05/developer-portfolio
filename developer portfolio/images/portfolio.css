@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header and navigation styles */
+.nav_title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text_primary {
+  color: #fd6e0a;
+}
+
+.btn_primary {
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 18px 36px;
+}
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("Images/header_bg.png"), url("Images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* nav designs in the child element only */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center; /*align - items is display flex attribute*/
+}
+
+/* banner styles */
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+  /* line-height: 116px; */
+  /* identical to box height */
+
+  /* Dark 01 */
+
+  color: #181818;
+}
+.banner-subtitle {
+  font-weight: 600;
+  font-size: 45px;
+  /* line-height: 61px; */
+
+  /* Dark 02 */
+  color: #474747;
+}
+.banner-description {
+  color: #757575;
+  margin-bottom: 30px;
+}
+.banner-description > .btn_primary {
+  margin-bottom: 30px;
+}
+
+/* Main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* About section design */
+.about {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 125px 150px;
+  font-weight: 700px;
+  text-align: center;
+}
+.section-title {
+  font-size: 35px;
+}
+.section-description {
+  padding: 30px 0;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-around;
+}
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700px;
+  font-size: 20px;
+  color: #181818;
+}
+
+/* what i do design */
+.whatIdo {
+  text-align: center;
+}
+
+.whatIdo_title {
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.whatIdo_description {
+  margin: auto;
+  font-size: 18px;
+  line-height: 30px;
+  width: 900px;
+}
+
+/* Specializaiton design */
+.specialization {
+  display: flex;
+  margin-top: 50px;
+  height: 377px;
+  gap: 24px;
+}
+
+.spec_logo {
+  margin-left: 0px;
+  height: 44px;
+  width: 44px;
+}
+
+.spec_title {
+  font-size: 20px;
+  line-height: 27px;
+  color: #181818;
+}
+
+.spec_js,
+.spec_react,
+.spec_nodejs,
+.spec_mongoDb {
+  width: 267px;
+  padding: 30px;
+  font-size: 16px;
+  color: #757575;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.spec_description {
+  line-height: 28px;
+}
+
+/* Resume Desing */
+.resume {
+  display: flex;
+  gap: 71px;
+}
+.resume_title {
+  margin: 100px auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  color: #181818;
+}
+.experience_item,
+.edu_resume_items {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 30px 0;
+}
+
+.experience_description,
+.education_description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.experience_company,
+.education_year {
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  padding: 18px 0;
+}
+.download_btn{
+  text-align: center;
+  margin-bottom: 113px;
+  margin-top: 50px;
+}
