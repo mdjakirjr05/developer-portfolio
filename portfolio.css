@@ -213,3 +213,20 @@ main {
   margin-bottom: 113px;
   margin-top: 50px;
 }
+/* footer design */
+.footer_info{
+  display: flex;
+  padding: 130px 230px;
+  gap: 117px;
+  background: #FFF8F3;
+}
+input[type=text], input[type="email"], textarea {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  margin-top: 24px;
+  border: 0;
+}
+.lets_message{
+  width: 461px;
+}
